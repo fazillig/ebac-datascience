@@ -1,4 +1,6 @@
 .DS_Store
+_ignore
+_ignore/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
