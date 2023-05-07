@@ -1,2 +1,3 @@
 xlsxwriter
-plotly
+plotly==5.13.0
+scikit-learn==1.2.2
