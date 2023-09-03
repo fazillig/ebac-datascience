@@ -44,8 +44,7 @@ def main():
         df_credit = pd.read_feather(data_file_1)
         df_credit = df_credit.sample(50000)
 
-        model = pickle.load(open("model_final.pkl", "rb"))
-        #model_saved = load_model(model)
+        model = pickle.load(open("./model_final.pkl", "rb"))
         predict = predict_model(model, data=df_credit)
 
         df_xlsx = to_excel(predict)
