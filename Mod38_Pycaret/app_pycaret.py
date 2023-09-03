@@ -1,5 +1,6 @@
 
 # Imports
+import os
 import pickle
 import pandas            as pd
 import streamlit         as st
@@ -43,8 +44,10 @@ def main():
     if (data_file_1 is not None):
         df_credit = pd.read_feather(data_file_1)
         df_credit = df_credit.sample(50000)
+        
+        path = os.path.dirname(__file__)
 
-        model = pickle.load(open("./model_final.pkl", "rb"))
+        model = pickle.load(open(path+"/model_final.pkl", "rb"))
         predict = predict_model(model, data=df_credit)
 
         df_xlsx = to_excel(predict)
