@@ -1,14 +1,14 @@
-SELECT COUNT(*) AS "Contagem ticket_flights"
-FROM ticket_flights;
+SELECT COUNT(*) AS "Contagem category"
+FROM category;
 
-SELECT COUNT(*) AS "Contagem aircrafts_data"
-FROM aircrafts_data;
+SELECT COUNT(*) AS "Contagem city"
+FROM city;
 
-SELECT COUNT(*) AS "Contagem flights"
-FROM flights;
+SELECT COUNT(*) AS "Contagem country"
+FROM country;
 
-SELECT COUNT(*) AS "Contagem airports_data"
-FROM airports_data;
+SELECT COUNT(*) AS "Contagem customer"
+FROM customer;
 
-SELECT COUNT(*) AS "Contagem bookings"
-FROM bookings
+SELECT COUNT(*) AS "Contagem film_actor"
+FROM film_actor
