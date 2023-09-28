@@ -1,0 +1,33 @@
+# Exercício 2 - Módulo 21 - SQL EBAC
+
+Neste arquivo markdown, está a entrega do exercício que pede a contagem de linhas de algumas tabelas em duas bases de dados diferentes: Demo e DVDRental. 
+
+## Database Demo
+
+Tabelas:
+- boarding_passes,
+- aircrafts_data, 
+- flights, 
+- airports_data, 
+- bookings
+
+![Alt text](img/aircrafts_data.png)
+![Alt text](img/airports_data.png)
+![Alt text](img/bookings.png)
+![Alt text](img/flights.png)
+![Alt text](img/ticket_flights.png)
+
+## Database DVDRental
+
+Tabelas:
+- Category,
+- city,
+- country,
+- customer,
+- film_actor
+
+![Alt text](img/category.png) 
+![Alt text](img/city.png) 
+![Alt text](img/country.png) 
+![Alt text](img/customer.png) 
+![Alt text](img/film_actor.png)
